@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     this is AProject
                    DESC
 
-  s.homepage     = "https://github.com/Ray0218/AProject"
+  s.homepage     = "https://github.com/RayCTMediator/AProject"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Ray0218/AProject.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/RayCTMediator/AProject.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -136,6 +136,8 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-  #s.dependency  "BProject_Category"
- s.dependency "Masonry"
- end
+
+s.dependency "Masonry"
+s.dependency "BProject_Category"
+
+end
