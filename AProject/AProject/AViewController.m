@@ -9,7 +9,7 @@
 #import "AViewController.h"
 #import "Masonry.h"
 //#import "BViewController.h"
-#import <CTMediator+B.h>
+ #import <BProject_Category/CTMediator+B.h>
 
 @interface AViewController ()
 @property (nonatomic, strong) UIButton *pushBViewControllerButton;
