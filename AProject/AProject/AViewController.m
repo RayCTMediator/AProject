@@ -9,7 +9,7 @@
 #import "AViewController.h"
 #import "Masonry.h"
 //#import "BViewController.h"
-//#import <CTMediator+B.h>
+#import <CTMediator+B.h>
 
 @interface AViewController ()
 @property (nonatomic, strong) UIButton *pushBViewControllerButton;
@@ -42,9 +42,9 @@
 {
 //    BViewController *viewController = [[BViewController alloc] initWithContentText:@"hello, world!"];
     
-//    UIViewController *viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello, world!"];
-//
-//    [self.navigationController pushViewController:viewController animated:YES];
+    UIViewController *viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello, world!"];
+
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 #pragma mark - getters and setters
