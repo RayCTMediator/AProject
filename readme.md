@@ -1,1 +1,1 @@
-pod "AProject"
+s pod "AProject"
